@@ -1,0 +1,30 @@
+header {
+  padding: 16px 0;
+  background-color: var(--neutra-default);
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.header-menu li a {
+  font-size: var(--paragraph-2);
+  color: var(--neutra-400);
+}
+
+@media (max-width: 768px)
+{
+  .flex-between {
+    justify-content: center;
+  }
+  .header-menu {
+    display: none;
+  }
+}
