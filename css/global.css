@@ -49,6 +49,8 @@ html {
   list-style: none;
   text-decoration: none;
   box-sizing: inherit;
+  /* border: 1px solid red; */
+ 
 }
 
 body {
@@ -76,7 +78,7 @@ a{
   width: 100%;
   max-width: 1216px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 20px;
 }
 
 /*

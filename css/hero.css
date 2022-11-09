@@ -3,6 +3,7 @@
   background-image: url(/img/hero-golden2.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-size: contain;
   background-color: var(--neutra-default)
 }
 
@@ -13,12 +14,11 @@
   width: 100%;
   max-width: 764px;
   padding-top: 112px;
-  gap: 24px
+  gap: 24px;
 }
 
 .copy h1 {
   width: 100%;
-  max-width: 638px;
   color: var(--primaria-default);
   font-size: var(--font-size-h1);
   line-height: var(--line-height-1);
@@ -39,7 +39,7 @@
 }
 
 .lista__item {
-  flex: 1 0 179px;
+  flex: 1 0 160px;
   background-color: var(--neutra-100);
   border-radius: 6px;
   padding: 16px;
@@ -75,4 +75,69 @@
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-20px); }
   100% { transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    height: 1200px;
+    background-size: contain;
+    background-position: center bottom;
+    background-color: var(--neutra-default);
+  }
+
+  .copy {
+    align-items: center;
+    max-width: 100%;
+    padding-top: 64px;
+    gap: 32px
+  }
+
+  .copy h1 {
+    font-size: 9.6rem;
+    max-width: 600px;
+  }
+
+  .copy h1, .copy > p {
+    text-align: center;
+  }
+
+  .lista__itens {
+    width: 100%;
+  }
+  
+  .lista__item {
+    flex: 1 0 130px;
+  }
+
+  .lista__item:nth-child(4) {
+    flex-basis: 50px;
+    padding-right: 0;
+  }
+  
+  .lista__item {
+    flex: 1 1 0;
+  }
+
+  .ancora {
+    display: none;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .lista__itens {
+    flex-direction: column;
+  }
+
+  .lista__item {
+    display: flex;
+    gap: 16px;
+  }
+  .lista__item p {
+    display: inline;
+    margin-right: 8px;
+  }
+
 }

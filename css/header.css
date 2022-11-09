@@ -16,12 +16,13 @@ header {
 
 .header-menu li a {
   font-size: var(--paragraph-2);
+  font-weight: var(--font-weight-medium);
   color: var(--neutra-400);
 }
 
 @media (max-width: 768px)
 {
-  .flex-between {
+    .flex-between {
     justify-content: center;
   }
   .header-menu {
