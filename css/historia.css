@@ -61,11 +61,12 @@
 .h__texto::before {
   width: 2px;
   height: 408px;
-  top: 270px;
+  top: 268px;
   left: -16px;
 }
 
 .h__texto h2 {
+  display: inline-block;
   position: relative;
   margin-bottom: 24px;
   font-size: var(--font-size-h2);
@@ -88,4 +89,58 @@
   line-height: var(--line-height-4);
   font-weight: var(--font-weight-medium);
   padding-bottom: 16px;
+}
+
+
+@media (max-width: 1024px) {
+  .s-historia {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 120px 0 ;
+    gap: 64px;
+  }
+
+  .s-historia::before {
+    top: 634px;
+    left: initial;
+  }
+
+  .h__texto {
+    order: -1;
+    text-align: center;
+  }
+
+  .h__texto::before {
+    display: none;
+  }
+
+  .h__texto h2::before {
+    left: 30%;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .s-historia::before {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .s-historia {
+    gap: 32px;
+    padding: 96px 0 ;
+  }
+
+  .s-historia::before {
+    display: none;
+  }
+
+  .h__mosaico::before, .h__mosaico::after {
+    top: -12px;
+    left: -10px;
+  }
+
 }

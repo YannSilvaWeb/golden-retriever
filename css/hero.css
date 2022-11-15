@@ -80,7 +80,7 @@
 @media (max-width: 768px) {
 
   .hero {
-    height: 1200px;
+    height: 1120px;
     background-size: contain;
     background-position: center bottom;
     background-color: var(--neutra-default);
@@ -89,13 +89,13 @@
   .copy {
     align-items: center;
     max-width: 100%;
-    padding-top: 64px;
+    padding-top: 32px;
     gap: 32px
   }
 
   .copy h1 {
     font-size: 9.6rem;
-    max-width: 600px;
+    
   }
 
   .copy h1, .copy > p {
@@ -127,6 +127,10 @@
 
 @media (max-width: 500px) {
 
+  .copy h1 {
+    font-size: var(--font-size-h2);
+  }
+
   .lista__itens {
     flex-direction: column;
   }
@@ -139,5 +143,4 @@
     display: inline;
     margin-right: 8px;
   }
-
 }

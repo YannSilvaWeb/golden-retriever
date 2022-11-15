@@ -32,20 +32,22 @@
   --neutra-300: #383838;
   --neutra-400: #C7C7C7;
 
-  --withe-100: #FBF5EF:
-  --withe-200: #FBECE0:
-
+  --withe-100: #FBF5EF;
+  --withe-200: #FBECE0;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: var(-Primaria-300);
+  /* background-color: var(--Primaria-300); */
 }
 
 ::-webkit-scrollbar-thumb {
-  height: 100px;
   background-color: var(--primaria-default);
   border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  
 }
 
 html {
