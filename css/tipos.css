@@ -85,3 +85,35 @@
 .none::after {
   display: none;
 }
+
+@media (max-width: 1024px) {
+  .tipos__container {
+    flex-direction: column;
+  }
+
+  .tipos__titulo::after {
+    left: 45%;
+  }
+
+  .tipos__esquerda {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .tipos__titulo {
+    font-size: var(--font-size-h3);
+  }
+
+  .tipos__titulo::after {
+    left: 40%;
+  }
+
+  .tipos__texto, .tipos__icone {
+    display: initial;
+    text-align: center;
+  }
+  .tipos__icone {
+    margin-bottom: 16px;
+  }
+}
