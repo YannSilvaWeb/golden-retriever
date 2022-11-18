@@ -1,0 +1,54 @@
+.caracter__bg {
+  background: url(/svg/ondas.svg) -40px 80px no-repeat;
+}
+
+.caracter__container {
+  display: flex;
+}
+
+.caracter__esquerda {
+  position: relative;
+}
+
+.icone__oso,
+.icone__comedouro,
+.icone__coracao,
+.icone__raio {
+  position: absolute;
+}
+
+.icone__oso {
+  top: 40px;
+  transform: rotate(-15deg);
+  animation: flutuando 3s ease 3.9s infinite alternate;
+}
+
+.icone__comedouro {
+  bottom: 140px;
+  right: 0;
+  transform: rotate(15deg);
+  animation: flutuando 3s ease 2.9s infinite alternate;
+}
+
+.icone__coracao {
+  bottom: 200px;
+  transform: rotate(6deg);
+  animation: flutuando 4s ease 0.9s infinite alternate;
+}
+
+.icone__raio {
+  top: 120px;
+  right: 0;
+  transform: rotate(-15deg);
+  animation: flutuando 3s ease 0.6s infinite alternate;
+}
+
+/* @keyframes flutuando {
+  0% { transform: translate(0,  0px); }
+  100%   { transform: translate(0, -15px); }
+} */
+
+@keyframes flutuando {
+  0% {transform: translate3d(initial, 0, 0);}
+  100% {transform: translate3d(5px, -30px, 0);}
+}
