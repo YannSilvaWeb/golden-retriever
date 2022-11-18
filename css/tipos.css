@@ -1,28 +1,11 @@
 .tipos {
-  
+  margin-bottom: 120px;
   padding: 120px 0;
   background-color: var(--neutra-100);
 }
 
-.tipos__titulo {
-  position: relative;
-  margin-bottom: 96px;
-  font-size: var(--font-size-h2);
-  line-height: var(--line-height-3);
-  text-align: center;
-
+.titulo__h2--tipos {
   color: var(--withe-100);
-}
-
-.tipos__titulo::after {
-  content: "";
-  position: absolute;
-  width: 72px;
-  height: 4px;
-  border-radius: 8px;
-  bottom: -16px;
-  left: 48%;
-  background-color: var(--primaria-100);
 }
 
 .tipos__container {

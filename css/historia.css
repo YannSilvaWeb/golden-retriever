@@ -64,24 +64,14 @@
   top: 268px;
   left: -16px;
 }
-
-.h__texto h2 {
+.titulo__h2--h {
   display: inline-block;
-  position: relative;
   margin-bottom: 24px;
-  font-size: var(--font-size-h2);
-  line-height: var(--line-height-3);
-  font-weight: var(--font-weight-bold);
 }
 
-.h__texto h2::before {
-  content: "";
-  position: absolute;
-  width: 72px;
-  height: 4px;
-  border-radius: 8px;
-  top: 66px;
-  background-color: var(--primaria-100);
+.titulo__h2--h::after {
+  bottom: -12px;
+  left: 0;
 }
 
 .h__texto p {
