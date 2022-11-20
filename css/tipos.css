@@ -79,6 +79,7 @@
   }
 
   .tipos__esquerda {
+    max-width: 90%;
     margin-bottom: 24px;
   }
 }

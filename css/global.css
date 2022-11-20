@@ -23,7 +23,7 @@
   --primaria-default: #DB9B61;
   --primaria-100: #E1AC7C;
   --primaria-200: #FCE0B6;
-  --Primaria-300: #F0D6BE;
+  --primaria-300: #F0D6BE;
 
   /* ESCALA DE CINZA */
   --neutra-default: #0F0F0F;
@@ -109,6 +109,19 @@ a{
   left: 48%;
   background-color: var(--primaria-100);
 }
+
+@media (max-width: 1024px) {
+  .titulo__h2::after {
+    left: 46%;
+  }
+}
+
+@media (max-width: 375px) {
+  .titulo__h2::after {
+    left: 40%;
+  }
+}
+
 /*
   // comando para minificar o css
   // compila os arquivos importados no style.css

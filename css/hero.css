@@ -127,6 +127,10 @@
 
 @media (max-width: 500px) {
 
+  .hero {
+    height: 1024px;
+  }
+
   .copy h1 {
     font-size: var(--font-size-h2);
   }

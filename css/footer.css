@@ -1,0 +1,17 @@
+.footer {
+  background-color: var(--neutra-default);
+}
+
+.footer__container {
+  display: flex;
+  padding: 28px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copy {
+  font-size: var(--paragraph-3);
+  color: var(--neutra-400);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-2);
+}
