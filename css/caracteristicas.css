@@ -75,10 +75,6 @@
     grid-template-columns: 1fr;
     justify-items: center;
   }
-  .caracter__esquerda {
-    display: grid;
-    justify-content: center;
-  }
   
   .caracter__direita {
     order: -1;

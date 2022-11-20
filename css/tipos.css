@@ -17,9 +17,7 @@
 
 
 .tipos__esquerda {
-  display: flex;
   max-width: 570px;
-  gap: 36px;
 }
 
 .tipos__texto {

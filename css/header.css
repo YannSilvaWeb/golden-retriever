@@ -1,31 +1,35 @@
-header {
-  padding: 16px 0;
-  background-color: var(--neutra-default);
+.hero__header {
+  padding: 1.4rem 0;
 }
 
-.flex-between {
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-menu {
+.header__menu {
   display: flex;
   gap: 3.2rem;
 }
 
-.header-menu li a {
+.header__menu li a {
   font-size: var(--paragraph-2);
   font-weight: var(--font-weight-medium);
   color: var(--neutra-400);
+  transition: .3s;
+}
+
+.header__menu li a:hover {
+  color: #ffff;
 }
 
 @media (max-width: 768px)
 {
-    .flex-between {
+    .header__container {
     justify-content: center;
   }
-  .header-menu {
+  .header__menu {
     display: none;
   }
 }
