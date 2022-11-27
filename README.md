@@ -1,4 +1,4 @@
-<h1 align="center">  Golden Retriever – Font-End e UI</h1>
+<h1 align="center">  Golden Retriever – Font-End e UI</h1> <br>
 
 <img src="https://github.com/YannSilvaWeb/golden-retriever/blob/main/cover-golden.jpg">
 
