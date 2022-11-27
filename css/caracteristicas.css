@@ -5,7 +5,7 @@
 .caracter__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
+  gap: 3.2rem;
   margin-bottom: 112px;
 }
 
@@ -21,27 +21,27 @@
 }
 
 .icone__oso {
-  top: 40px;
+  top: 4rem;
   transform: rotate(-15deg);
   animation: flutuando 3s ease 3.9s infinite alternate;
 }
 
 .icone__comedouro {
-  bottom: 140px;
-  right: 72px;
+  bottom: 14rem;
+  right: 7.2rem;
   transform: rotate(15deg);
   animation: flutuando 3s ease 2.9s infinite alternate;
 }
 
 .icone__coracao {
-  bottom: 200px;
+  bottom: 20rem;
   transform: rotate(6deg);
   animation: flutuando 4s ease 0.9s infinite alternate;
 }
 
 .icone__raio {
-  top: 130px;
-  right: 90px;
+  top: 13rem;
+  right: 9rem;
   transform: rotate(-15deg);
   animation: flutuando 3s ease 0.6s infinite alternate;
 }
@@ -54,17 +54,17 @@
 .caracter__itens {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px 32px;
+  gap: 2rem 3.2rem;
 }
 
 .caracter__item {
-  padding: 32px 24px;
-  border-radius: 8px;
+  padding: 3.2rem 2.4rem;
+  border-radius: 0.8rem;
   background-color: var(--primaria-300);
 }
 
 .caracter__atributo {
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
   font-size: var(--paragraph-3);
   line-height: var(--line-height-2);
   font-weight: var(--font-weight-bold);
@@ -88,4 +88,21 @@
     right: 0;
   }
 
+}
+
+@media (max-width: 375px) {
+
+  .caracter__direita {
+    grid-template-columns: 1fr;
+  }
+
+  .caracter__itens {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem 3.2rem;
+  }
+  .titulo__h2--caracter {
+    max-width: 100%;
+    font-size: 4.0rem;
+  }
 }

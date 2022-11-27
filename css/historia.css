@@ -3,8 +3,8 @@
   position: relative;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 32px;
-  padding: 200px 0;
+  gap: 3.2rem;
+  padding: 20rem 0;
 }
 
 .h__mosaico {
@@ -15,10 +15,10 @@
 .h__mosaico::before, .h__mosaico::after {
   content: "";
   position: absolute;
-  height: 122px;
-  width: 126px;
-  top: 20px;
-  left: 40px;
+  height: 12.2rem;
+  width: 12.6rem;
+  top: 2rem;
+  left: 4rem;
 }
 
 .h__mosaico::before {
@@ -42,15 +42,15 @@
 .s-historia::before, .h__texto::before {
   content: "";
   position: absolute;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   background-color: var(--primaria-100);
 }
 
 .s-historia::before {
-  width: 408px;
-  height: 2px;
-  left: 70px;
-  top: 840px;
+  width: 40.8rem;
+  height: 0.2rem;
+  left: 7rem;
+  top: 84rem;
 }
 
 .h__texto {
@@ -59,18 +59,18 @@
 }
 
 .h__texto::before {
-  width: 2px;
-  height: 408px;
-  top: 268px;
-  left: -16px;
+  width: 0.2rem;
+  height: 40.8rem;
+  top: 26.8rem;
+  left: -1.6rem;
 }
 .titulo__h2--h {
   display: inline-block;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .titulo__h2--h::after {
-  bottom: -12px;
+  bottom: -1.2rem;
   left: 0;
 }
 
@@ -78,7 +78,7 @@
   font-size: var(--paragraph-2);
   line-height: var(--line-height-4);
   font-weight: var(--font-weight-medium);
-  padding-bottom: 16px;
+  padding-bottom: 1.6rem;
 }
 
 
@@ -86,12 +86,12 @@
   .s-historia {
     grid-template-columns: 1fr;
     justify-items: center;
-    padding: 120px 0 ;
-    gap: 64px;
+    padding: 12rem 0 ;
+    gap: 6.4rem;
   }
 
   .s-historia::before {
-    top: 634px;
+    top: 63.4rem;
     left: initial;
   }
 
@@ -117,11 +117,11 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 37.5rem) {
 
   .s-historia {
-    gap: 32px;
-    padding: 96px 0 ;
+    gap: 3.2rem;
+    padding: 9.6rem 0 ;
   }
 
   .s-historia::before {
@@ -129,8 +129,8 @@
   }
 
   .h__mosaico::before, .h__mosaico::after {
-    top: -12px;
-    left: -10px;
+    top: -1.2rem;
+    left: -1rem;
   }
 
 }
