@@ -7,7 +7,7 @@
 <h2> 📝 Descrição: </h2>
 
 <p>O projeto tem como objetivo a prática. Após alguns anos sem praticar resolvi então me desafiar a estrutura e estilizar partindo do design.
-Mesmo sendo um projeto simples nele pude praticar; semântica, posicionamento, acessibilidade e responsividade...</p>
+Mesmo sendo um projeto simples nele pude praticar; semântica, posicionamento, acessibilidade e responsividade...</p> <br>
 
 <h2> 🖥️ Tecnologias utilizadas:</h2>
 HTML5 <br>
