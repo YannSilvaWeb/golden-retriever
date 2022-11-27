@@ -1,6 +1,6 @@
 .hero {
   height: 100vh;
-  background: url(/img/hero-golden2.png) no-repeat right bottom;
+  background: url(img/hero-golden2.png) no-repeat right bottom;
   background-color: var(--neutra-default)
 }
 
@@ -72,7 +72,7 @@
 @media (max-width: 1024px) {
 
   .hero {
-    background: url(/img/hero-golden2.png) no-repeat bottom;
+    background: url(img/hero-golden2.png) no-repeat bottom;
     background-color: var(--neutra-default)
   }
 

@@ -1,5 +1,5 @@
 .caracter__bg {
-  background: url(/svg/ondas.svg) -40px 80px no-repeat;
+  background: url(svg/ondas.svg) -40px 80px no-repeat;
 }
 
 .caracter__container {
@@ -81,7 +81,7 @@
   }
 
   .caracter__bg {
-    background: url(/svg/ondas.svg)  no-repeat bottom;
+    background: url(svg/ondas.svg)  no-repeat bottom;
   }
   
   .icone__raio, .icone__comedouro {

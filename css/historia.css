@@ -22,11 +22,11 @@
 }
 
 .h__mosaico::before {
-  background: url("/svg/dog-circulo.svg") no-repeat center;
+  background: url("svg/dog-circulo.svg") no-repeat center;
 }
 
 .h__mosaico::after {
-  background: url("/svg/letras-circulo.svg") no-repeat center;
+  background: url("svg/letras-circulo.svg") no-repeat center;
   animation: rotating 9s linear infinite;
 }
 
@@ -55,7 +55,7 @@
 
 .h__texto {
   position: relative;
-  background: url(/svg/_befor_map.svg) no-repeat top right;
+  background: url(svg/_befor_map.svg) no-repeat top right;
 }
 
 .h__texto::before {
